@@ -7,7 +7,7 @@
   </a>
 
   <img src="https://img.shields.io/badge/Tool-SQL%20%7C%20SQLite-217346?style=for-the-badge" alt="SQL Badge"/>
-  <img src="https://img.shields.io/badge/Status-Ready_for_review-brightgreen?style=for-the-badge" alt="Status Badge"/>
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status Badge"/>
 </div>
 
 ---

@@ -31,14 +31,6 @@
 
 ---
 
-## How to use this case study
-
-1. Load `portfolio_dataset_rich.csv` into a SQL database (table name `users`). I recommend SQLite or Postgres for portability.
-2. Each numbered analysis block below contains an example SQL query and a sample result from the included dataset to illustrate the business insight.
-3. For production, replace sample CSV with production tables and instrument metrics as monitored metrics in dashboards (e.g., retention, CAC, LTV).
-
----
-
 ## SQL-driven Analysis (Queries & Sample Results)
 
 Below are **12** high-impact SQL queries designed to demonstrate analytical thinking and business impact. Each query is followed by a short interpretation and a sample result using the provided dataset.
@@ -369,29 +361,12 @@ est\_additional\_revenue\_move\_20: 499.8
 
 * I prioritize **business questions** and map them to KPIs (e.g., retention\_90d, revenue\_30d, ltv\_90d). Each query is designed to answer a specific stakeholder question (Product, Marketing, CS, Finance).
 * I use cohort analysis, segmentation, counterfactuals, and operational exports to move from insight → action.
-* For production use, I recommend converting these SQL snippets into idempotent models (dbt) with tests and monitoring.
 
-## Reproducibility (how to run locally)
 
-1. Create a SQLite DB and load `portfolio_dataset_rich.csv` into a table named `users`.
-2. Run the SQL snippets above (they are ANSI-compatible; update `date_trunc`/percentile functions for your SQL dialect if needed).
-3. Export actionable lists as CSVs and hand them to Product/Marketing for targeted experiments (A/B tests).
-
-## Contact & Next Steps
-
-If you'd like, I can:
-
-* Convert these SQL snippets into a runnable `analysis.sql` and `run.sh` (SQLite) that outputs the sample result CSVs used above.
-* Build a short Jupyter notebook that visualizes 2–3 of these results (retention curve, LTV vs CAC scatter, actionable user export).
-* Produce a 1-page decision memo to include in the repo.
-
----
 
 <div align="center">
   <h3>Let's Connect</h3>
-  <p>I build analyses that drive product and commercial decisions — if you'd like this packaged for your portfolio, I can prepare the runnable repo artifacts.</p>
   <a href="https://www.linkedin.com/in/muhammad-ashraful/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
 </div>
-"# sql-business-analytics-portfolio" 
